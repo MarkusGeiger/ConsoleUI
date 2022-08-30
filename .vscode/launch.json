@@ -1,6 +1,17 @@
 {
   "version": "0.2.0",
   "configurations": [
+    {
+      "name": "SpectreWorkflow",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "buildWorkflow",
+      "program": "${workspaceFolder}/SpectreWorkflow/bin/Debug/net6.0/SpectreWorkflow.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}/SpectreWorkflow",
+      "stopAtEntry": false,
+      "console": "internalConsole"
+    },
   {
     "name": "LogTest",
     "type": "coreclr",
